@@ -82,32 +82,11 @@ and TF-IDF is used to create word embeddings.
 Note :- Glove 6B.100d was used. Only 20% vocab was found in glove embeddings because a lot of tokes are 
 version names mix of alphanumeric characters such as ik-10600k, lu232df etc.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>2x2 Image Matrix</title>
-    <style>
-        .image-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 10px;
-        }
-        .image-grid img {
-            width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-    <div class="image-grid">
-        <div><img src="model_files/lstm/tensorboard_images/Training%20Loss.svg" alt="Training Loss"></div>
-        <div><img src="model_files/lstm/tensorboard_images/Validation%20Loss.svg" alt="Validation Loss"></div>
-        <div><img src="model_files/lstm/tensorboard_images/Training%20Accuracy.svg" alt="Training Accuracy"></div>
-        <div><img src="model_files/lstm/tensorboard_images/Validation%20Accuracy.svg" alt="Validation Accuracy"></div>
-    </div>
-</body>
-</html>
+
+<img src="model_files/lstm/tensorboard_images/Training%20Loss.svg" alt="Training Loss">
+<div><img src="model_files/lstm/tensorboard_images/Validation%20Loss.svg" alt="Validation Loss">
+<img src="model_files/lstm/tensorboard_images/Training%20Accuracy.svg" alt="Training Accuracy"></div>
+<img src="model_files/lstm/tensorboard_images/Validation%20Accuracy.svg" alt="Validation Accuracy">
 
 # Product Cluster Label Matching  
 
