@@ -83,10 +83,10 @@ Note :- Glove 6B.100d was used. Only 20% vocab was found in glove embeddings bec
 version names mix of alphanumeric characters such as ik-10600k, lu232df etc.
 
 
-<img src="model_files/lstm/tensorboard_images/Training%20Loss.svg" alt="Training Loss">
-<div><img src="model_files/lstm/tensorboard_images/Validation%20Loss.svg" alt="Validation Loss">
-<img src="model_files/lstm/tensorboard_images/Training%20Accuracy.svg" alt="Training Accuracy"></div>
-<img src="model_files/lstm/tensorboard_images/Validation%20Accuracy.svg" alt="Validation Accuracy">
+<figure><img src="model_files/lstm/tensorboard_images/Training%20Loss.svg" alt="Training Loss"> <figcaption>Traim Loss</figcaption></figure>
+<figure><img src="model_files/lstm/tensorboard_images/Validation%20Loss.svg" alt="Validation Loss"><figcaption>Val Loss</figcaption></figure>
+<figure><img src="model_files/lstm/tensorboard_images/Training%20Accuracy.svg" alt="Training Accuracy"><figcaption>Train Acc</figcaption></figure>
+<figure><img src="model_files/lstm/tensorboard_images/Validation%20Accuracy.svg" alt="Validation Accuracy"><figcaption>Val Acc</figcaption></figure>
 
 # Product Cluster Label Matching  
 
