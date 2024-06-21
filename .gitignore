@@ -49,3 +49,4 @@ glove_embeddings/
 data/zip
 model_files/lstm/writer
 model_files/*.pkl
+model_files/lstm/*.tar

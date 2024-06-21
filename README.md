@@ -12,7 +12,9 @@ Category Label is the class of which the product belongs. There are 10 classes.
 1. **Clone the Repository**: `git clone <repository-url>`
 2. **Navigate to Project Directory**: `cd project-directory`
 3. `docker build -t <image_name> .`
-4. `docker run --name <container_name> --ipc=host -v /mountpath:/mounthpath -p 8888:8888 -p 6006:6006 --gpus all -it --rm <image_name>`
+4. **Run Docker Container**:
+   ```bash
+   docker run --name <container_name> --ipc=host -v /mountpath:/mounthpath -p 8888:8888 -p 6006:6006 --gpus all -it --rm <image_name>
 
 ### Project Structure
     ./
@@ -80,7 +82,32 @@ and TF-IDF is used to create word embeddings.
 Note :- Glove 6B.100d was used. Only 20% vocab was found in glove embeddings because a lot of tokes are 
 version names mix of alphanumeric characters such as ik-10600k, lu232df etc.
 
-<img src="model_files/lstm/tensorboard_images/Training%20Accuracy.svg" width="200"/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2x2 Image Matrix</title>
+    <style>
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .image-grid img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-grid">
+        <div><img src="model_files/lstm/tensorboard_images/Training%20Loss.svg" alt="Training Loss"></div>
+        <div><img src="model_files/lstm/tensorboard_images/Validation%20Loss.svg" alt="Validation Loss"></div>
+        <div><img src="model_files/lstm/tensorboard_images/Training%20Accuracy.svg" alt="Training Accuracy"></div>
+        <div><img src="model_files/lstm/tensorboard_images/Validation%20Accuracy.svg" alt="Validation Accuracy"></div>
+    </div>
+</body>
+</html>
 
 # Product Cluster Label Matching  
 
