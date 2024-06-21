@@ -1,0 +1,10 @@
+pandas
+jupyter
+scipy
+nltk
+xgboost
+torchtext
+seaborn
+scikit-learn
+tensorboard
+textdistance
